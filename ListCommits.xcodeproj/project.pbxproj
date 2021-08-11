@@ -11,7 +11,7 @@
 		77C1ED0E26C490630089875C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1ED0D26C490630089875C /* ContentView.swift */; };
 		77C1ED1026C490670089875C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77C1ED0F26C490670089875C /* Assets.xcassets */; };
 		77C1ED1326C490670089875C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77C1ED1226C490670089875C /* Preview Assets.xcassets */; };
-		77C1ED1E26C490670089875C /* ListCommitsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1ED1D26C490670089875C /* ListCommitsTests.swift */; };
+		77C1ED1E26C490670089875C /* CommitUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1ED1D26C490670089875C /* CommitUnitTests.swift */; };
 		77C1ED2926C490670089875C /* ListCommitsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1ED2826C490670089875C /* ListCommitsUITests.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +40,7 @@
 		77C1ED1226C490670089875C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		77C1ED1426C490670089875C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77C1ED1926C490670089875C /* ListCommitsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListCommitsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		77C1ED1D26C490670089875C /* ListCommitsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCommitsTests.swift; sourceTree = "<group>"; };
+		77C1ED1D26C490670089875C /* CommitUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitUnitTests.swift; sourceTree = "<group>"; };
 		77C1ED1F26C490670089875C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77C1ED2426C490670089875C /* ListCommitsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListCommitsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77C1ED2826C490670089875C /* ListCommitsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCommitsUITests.swift; sourceTree = "<group>"; };
@@ -115,7 +115,7 @@
 		77C1ED1C26C490670089875C /* ListCommitsTests */ = {
 			isa = PBXGroup;
 			children = (
-				77C1ED1D26C490670089875C /* ListCommitsTests.swift */,
+				77C1ED1D26C490670089875C /* CommitUnitTests.swift */,
 				77C1ED1F26C490670089875C /* Info.plist */,
 			);
 			path = ListCommitsTests;
@@ -268,7 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77C1ED1E26C490670089875C /* ListCommitsTests.swift in Sources */,
+				77C1ED1E26C490670089875C /* CommitUnitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
