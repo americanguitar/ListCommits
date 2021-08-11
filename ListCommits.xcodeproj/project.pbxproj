@@ -13,6 +13,11 @@
 		77C1ED1326C490670089875C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77C1ED1226C490670089875C /* Preview Assets.xcassets */; };
 		77C1ED1E26C490670089875C /* CommitUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1ED1D26C490670089875C /* CommitUnitTests.swift */; };
 		77C1ED2926C490670089875C /* ListCommitsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1ED2826C490670089875C /* ListCommitsUITests.swift */; };
+		77C1ED3726C4937A0089875C /* Commit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1ED3626C4937A0089875C /* Commit.swift */; };
+		77C1ED3826C4937A0089875C /* Commit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1ED3626C4937A0089875C /* Commit.swift */; };
+		77C1ED3926C494390089875C /* ListCommitsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1ED0B26C490630089875C /* ListCommitsApp.swift */; };
+		77C1ED3A26C494420089875C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1ED0D26C490630089875C /* ContentView.swift */; };
+		77C1ED3B26C494420089875C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1ED0D26C490630089875C /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,7 @@
 		77C1ED2426C490670089875C /* ListCommitsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListCommitsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77C1ED2826C490670089875C /* ListCommitsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCommitsUITests.swift; sourceTree = "<group>"; };
 		77C1ED2A26C490670089875C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77C1ED3626C4937A0089875C /* Commit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				77C1ED0B26C490630089875C /* ListCommitsApp.swift */,
+				77C1ED3626C4937A0089875C /* Commit.swift */,
 				77C1ED0D26C490630089875C /* ContentView.swift */,
 				77C1ED0F26C490670089875C /* Assets.xcassets */,
 				77C1ED1426C490670089875C /* Info.plist */,
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77C1ED3726C4937A0089875C /* Commit.swift in Sources */,
 				77C1ED0E26C490630089875C /* ContentView.swift in Sources */,
 				77C1ED0C26C490630089875C /* ListCommitsApp.swift in Sources */,
 			);
@@ -268,6 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77C1ED3926C494390089875C /* ListCommitsApp.swift in Sources */,
+				77C1ED3826C4937A0089875C /* Commit.swift in Sources */,
+				77C1ED3A26C494420089875C /* ContentView.swift in Sources */,
 				77C1ED1E26C490670089875C /* CommitUnitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77C1ED3B26C494420089875C /* ContentView.swift in Sources */,
 				77C1ED2926C490670089875C /* ListCommitsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

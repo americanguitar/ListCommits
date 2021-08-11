@@ -9,9 +9,11 @@ import XCTest
 @testable import ListCommits
 
 class CommitUnitTests: XCTestCase {
+    
+    var newCommit = Commit(author: "Tom Limbaugh", hash: "e3365be8c8992cefc303b9504bd6face0e998479", message: "initial commit")
 
     override func setUpWithError() throws {
-        var newCommit = Commit(author: "Tom Limbaugh", hash: "e3365be8c8992cefc303b9504bd6face0e998479", message: "initial commit")
+        
     }
 
     override func tearDownWithError() throws {
