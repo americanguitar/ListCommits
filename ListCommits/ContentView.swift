@@ -7,15 +7,18 @@
 
 import SwiftUI
 
+import SwiftUI
+
 struct ContentView: View {
+    @EnvironmentObject private var userData: UserData
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        List {
+            Text("Loading Data...")
+        }.onAppear(perform: load)
     }
+}
+    
+func load() {
+    loadData()
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
