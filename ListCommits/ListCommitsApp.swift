@@ -11,7 +11,7 @@ import SwiftUI
 struct ListCommitsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView().environmentObject(UserData())
+            CommitList().environmentObject(UserData())
         }
     }
 }

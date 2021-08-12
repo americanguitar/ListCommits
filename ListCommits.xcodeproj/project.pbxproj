@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		778DAC7326C5684C00443559 /* NetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778DAC7226C5684B00443559 /* NetworkTests.swift */; };
+		778DAC7626C5723300443559 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1ED3C26C4957F0089875C /* Data.swift */; };
+		778DAC7726C5723600443559 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1ED3F26C496380089875C /* UserData.swift */; };
+		778DAC7826C5723F00443559 /* Commit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1ED3626C4937A0089875C /* Commit.swift */; };
+		778DAC7926C5724800443559 /* ListCommitsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1ED0B26C490630089875C /* ListCommitsApp.swift */; };
+		778DAC7B26C579BE00443559 /* CommitRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778DAC7A26C579BE00443559 /* CommitRow.swift */; };
+		778DAC7C26C579BE00443559 /* CommitRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778DAC7A26C579BE00443559 /* CommitRow.swift */; };
+		778DAC7D26C579BE00443559 /* CommitRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778DAC7A26C579BE00443559 /* CommitRow.swift */; };
 		77C1ED0C26C490630089875C /* ListCommitsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1ED0B26C490630089875C /* ListCommitsApp.swift */; };
-		77C1ED0E26C490630089875C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1ED0D26C490630089875C /* ContentView.swift */; };
+		77C1ED0E26C490630089875C /* CommitList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1ED0D26C490630089875C /* CommitList.swift */; };
 		77C1ED1026C490670089875C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77C1ED0F26C490670089875C /* Assets.xcassets */; };
 		77C1ED1326C490670089875C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77C1ED1226C490670089875C /* Preview Assets.xcassets */; };
 		77C1ED1E26C490670089875C /* CommitUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1ED1D26C490670089875C /* CommitUnitTests.swift */; };
@@ -16,8 +24,8 @@
 		77C1ED3726C4937A0089875C /* Commit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1ED3626C4937A0089875C /* Commit.swift */; };
 		77C1ED3826C4937A0089875C /* Commit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1ED3626C4937A0089875C /* Commit.swift */; };
 		77C1ED3926C494390089875C /* ListCommitsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1ED0B26C490630089875C /* ListCommitsApp.swift */; };
-		77C1ED3A26C494420089875C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1ED0D26C490630089875C /* ContentView.swift */; };
-		77C1ED3B26C494420089875C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1ED0D26C490630089875C /* ContentView.swift */; };
+		77C1ED3A26C494420089875C /* CommitList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1ED0D26C490630089875C /* CommitList.swift */; };
+		77C1ED3B26C494420089875C /* CommitList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1ED0D26C490630089875C /* CommitList.swift */; };
 		77C1ED3D26C4957F0089875C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1ED3C26C4957F0089875C /* Data.swift */; };
 		77C1ED3E26C4957F0089875C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1ED3C26C4957F0089875C /* Data.swift */; };
 		77C1ED4026C496380089875C /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1ED3F26C496380089875C /* UserData.swift */; };
@@ -42,9 +50,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		778DAC7226C5684B00443559 /* NetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTests.swift; sourceTree = "<group>"; };
+		778DAC7A26C579BE00443559 /* CommitRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitRow.swift; sourceTree = "<group>"; };
 		77C1ED0826C490630089875C /* ListCommits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListCommits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77C1ED0B26C490630089875C /* ListCommitsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCommitsApp.swift; sourceTree = "<group>"; };
-		77C1ED0D26C490630089875C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		77C1ED0D26C490630089875C /* CommitList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitList.swift; sourceTree = "<group>"; };
 		77C1ED0F26C490670089875C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77C1ED1226C490670089875C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		77C1ED1426C490670089875C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -111,7 +121,8 @@
 				77C1ED3C26C4957F0089875C /* Data.swift */,
 				77C1ED3F26C496380089875C /* UserData.swift */,
 				77C1ED3626C4937A0089875C /* Commit.swift */,
-				77C1ED0D26C490630089875C /* ContentView.swift */,
+				77C1ED0D26C490630089875C /* CommitList.swift */,
+				778DAC7A26C579BE00443559 /* CommitRow.swift */,
 				77C1ED0F26C490670089875C /* Assets.xcassets */,
 				77C1ED1426C490670089875C /* Info.plist */,
 				77C1ED1126C490670089875C /* Preview Content */,
@@ -131,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				77C1ED1D26C490670089875C /* CommitUnitTests.swift */,
+				778DAC7226C5684B00443559 /* NetworkTests.swift */,
 				77C1ED1F26C490670089875C /* Info.plist */,
 			);
 			path = ListCommitsTests;
@@ -275,7 +287,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				77C1ED3726C4937A0089875C /* Commit.swift in Sources */,
-				77C1ED0E26C490630089875C /* ContentView.swift in Sources */,
+				778DAC7B26C579BE00443559 /* CommitRow.swift in Sources */,
+				77C1ED0E26C490630089875C /* CommitList.swift in Sources */,
 				77C1ED0C26C490630089875C /* ListCommitsApp.swift in Sources */,
 				77C1ED4026C496380089875C /* UserData.swift in Sources */,
 				77C1ED3D26C4957F0089875C /* Data.swift in Sources */,
@@ -286,11 +299,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				778DAC7326C5684C00443559 /* NetworkTests.swift in Sources */,
 				77C1ED4126C496380089875C /* UserData.swift in Sources */,
 				77C1ED3926C494390089875C /* ListCommitsApp.swift in Sources */,
+				778DAC7C26C579BE00443559 /* CommitRow.swift in Sources */,
 				77C1ED3E26C4957F0089875C /* Data.swift in Sources */,
 				77C1ED3826C4937A0089875C /* Commit.swift in Sources */,
-				77C1ED3A26C494420089875C /* ContentView.swift in Sources */,
+				77C1ED3A26C494420089875C /* CommitList.swift in Sources */,
 				77C1ED1E26C490670089875C /* CommitUnitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,7 +314,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77C1ED3B26C494420089875C /* ContentView.swift in Sources */,
+				778DAC7926C5724800443559 /* ListCommitsApp.swift in Sources */,
+				778DAC7826C5723F00443559 /* Commit.swift in Sources */,
+				77C1ED3B26C494420089875C /* CommitList.swift in Sources */,
+				778DAC7626C5723300443559 /* Data.swift in Sources */,
+				778DAC7726C5723600443559 /* UserData.swift in Sources */,
+				778DAC7D26C579BE00443559 /* CommitRow.swift in Sources */,
 				77C1ED2926C490670089875C /* ListCommitsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

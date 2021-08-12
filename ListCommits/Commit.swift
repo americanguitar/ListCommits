@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct Commit: Codable {
+struct Commit: Hashable, Codable, Identifiable {
+    var id: Int
     var author: String
     var hash: String
     var message: String
