@@ -22,6 +22,7 @@ struct CommitList: View {
                 }
                 .onAppear(perform: load)
                 .navigationBarTitle("Recent GitHub Commits", displayMode: .inline)
+// CommitRow presently unable to conform to view?
 //            List {
 //                ForEach(userData.fakeCommits) { commit in
 //                    {

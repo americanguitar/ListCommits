@@ -10,7 +10,7 @@ import XCTest
 
 class CommitUnitTests: XCTestCase {
     
-    var newCommit = Commit(author: "Tom Limbaugh", hash: "e3365be8c8992cefc303b9504bd6face0e998479", message: "initial commit")
+    var newCommit = Commit(id: 1, author: "Tom Limbaugh", hash: "e3365be8c8992cefc303b9504bd6face0e998479", message: "initial commit")
 
     override func setUpWithError() throws {
         
@@ -23,6 +23,11 @@ class CommitUnitTests: XCTestCase {
     func testThatCommitExists() throws {
         
         XCTAssertNotNil(newCommit, "Should be able to create an instance of Commit")
+    }
+    
+    func testThatCommitCanHaveAnId() {
+        
+        XCTAssertEqual(newCommit.id, 1, "Should be able to have id")
     }
     
     func testThatCommitCanHaveAnAuthor() {

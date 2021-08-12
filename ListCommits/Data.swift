@@ -5,6 +5,10 @@
 //  Created by Tom Limbaugh on 8/11/21.
 //
 
+// will make network connection and call and parse JSON data once the mapping to JSON
+// schema is correct. Currently printing the JSON object so mapping can be determined.
+// Also currently providing some fake data for CommitList.swift.
+
 import Foundation
 
 let commitData: [Commit] = loadData()
