@@ -10,5 +10,5 @@ import SwiftUI
 
 final class UserData: ObservableObject {
     @Published var commits = commitData
-    @Published var fakeCommits = fakeCommitData
+    // @Published var fakeCommits = fakeCommitData
 }

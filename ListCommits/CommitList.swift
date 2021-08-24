@@ -12,7 +12,7 @@ struct CommitList: View {
     // var commits: [Commit]
     var body: some View {
         NavigationView {
-            List(userData.fakeCommits, id: \.id) { item in
+            List(userData.commits, id: \.id) { item in
                     VStack(alignment: .leading) {
                         Text(item.author)
                             .font(.subheadline)
@@ -20,7 +20,6 @@ struct CommitList: View {
                         Text(item.hash)
                     }
                 }
-                .onAppear(perform: load)
                 .navigationBarTitle("Recent GitHub Commits", displayMode: .inline)
 // CommitRow presently unable to conform to view?
 //            List {
